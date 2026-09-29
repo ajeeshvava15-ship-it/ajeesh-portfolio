@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Ajeesh A.S.</title><link rel="stylesheet" href="style.css"></head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="logo" href="index.html">AJEESH AS<span>.</span></a>
+    <button class="menu-btn" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="page-hero"><div class="container"><div class="kicker">Contact</div><h1>Let’s talk about marketing opportunities.</h1><p>Available for entry-level and internship opportunities in Digital Marketing, Performance Marketing, SEO and Social Media Marketing.</p></div></section>
+
+<section class="section">
+<div class="container contact-grid">
+<div class="card">
+<h3>Get in touch</h3>
+<p>Use the details below to reach me directly.</p>
+<div class="contact-list">
+<div class="contact-item"><span>Email</span><a href="mailto:ajeeshorg@gmail.com">ajeeshorg@gmail.com</a></div>
+<div class="contact-item"><span>Phone</span><a href="tel:+918714238943">+91 8714238943</a></div>
+<div class="contact-item"><span>Location</span>Attingal, TVM</div>
+</div>
+</div>
+
+<div class="card">
+<h3>Send a message</h3>
+<p style="margin-bottom:18px">This demo form opens your email client. Replace the email address in the code when needed.</p>
+<form action="mailto:ajeeshorg@gmail.com" method="post" enctype="text/plain">
+<input type="text" name="name" placeholder="Your name" required>
+<input type="email" name="email" placeholder="Your email" required>
+<input type="text" name="subject" placeholder="Subject" required>
+<textarea name="message" placeholder="Tell me about the role or project..." required></textarea>
+<button class="btn btn-primary" type="submit">Send Message</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-row">
+    <span>© 2026 Ajeesh A.S. All rights reserved.</span>
+    <span>Digital Marketing • Performance Marketing • SEO</span>
+  </div>
+</footer>
+<script>
+function toggleMenu(){document.getElementById('navLinks').classList.toggle('show')}
+</script>
+
+</body>
+</html>
